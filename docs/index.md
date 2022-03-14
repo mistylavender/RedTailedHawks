@@ -7,7 +7,8 @@ Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
 ### Teams, Plans, Jobs 
 | Requirement | Link |
 
-| ---  | ---        |
+| ---  | ---  |
+
 | Web Project: Project Description, Ideas, Wires, Success Idea | [Project Wiki](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)|
 | Embed Project: Hardware Idea, Project Description, Success Idea | [Github](https://github.com/mistylavender/RedTailedHawks/tree/master) |
 | Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
