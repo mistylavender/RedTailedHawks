@@ -1,29 +1,18 @@
 ## Welcome to RedTailedHawks GitHub Pages
+Project Description: Create an innovate website where it displays the Night of Museum's artwork in an efficient manner.
 
-c
-### Markdown
+### Team Members
+Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Teams, Plans, Jobs 
+| Requirement | Link |
+| ---  | ---        |
+| Web Project: Project Description, Ideas, Wires, Success Idea | [Project Wiki](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)|
+| Embed Project: Hardware Idea, Project Description, Success Idea | [Github](https://github.com/mistylavender/RedTailedHawks/tree/master) |
+| Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
+| Scrum Board started | [Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1) |
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
 
