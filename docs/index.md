@@ -13,8 +13,6 @@ Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
 | Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
 | Scrum Board started | [Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1) |
 
-
-
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mistylavender/RedTailedHawks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
