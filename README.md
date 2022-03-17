@@ -10,6 +10,12 @@
 | Rini | [@rkwreck](https://github.com/rkwreck) | Github Admin | Setup Project in Git + integrate any starter code from Trimester 1 + build policies for Fork and Pull requests + organize Git for each week's work | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Arkwreck) | [Link](https://rkwreck.github.io/rinik/) | 
 | Ridhima | [@ridhimainkurti](https://github.com/ridhimainukurti) | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Link](https://ridhimainukurti.github.io/triridhimainukurti/) | 
 
+### Scrum Board: [Link](https://github.com/mistylavender/RedTailedHawks/projects/1)
+
+### Contributors (Link to Graphs): [Link](https://github.com/mistylavender/RedTailedHawks/graphs/contributors)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Week 1 
 
 ### Project Owner initial requirements & derivative tangibles:
