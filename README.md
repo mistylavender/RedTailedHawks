@@ -21,5 +21,6 @@
 
 ### Requirements & Jobs from Scrum Board:
 
-![image](https://user-images.githubusercontent.com/89210546/158834791-7c8ad5f4-fa1d-420d-b2c5-62bf9fa40c1b.png)
+![image](https://user-images.githubusercontent.com/89210546/158838444-4e78e1fd-042f-4a02-bb85-d643f4dab385.png)
+
 
