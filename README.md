@@ -1,8 +1,15 @@
 # RedTailedHawks
 
-## Our Purpose: Del Norte's talented art students that produce outstanding pieces every trimester for the tri-annual Night at the Museum show. This innovative website displays our student's artwork in an efficient manner and helps them stand out. 
+### Our Purpose: 
+Del Norte's talented art students that produce outstanding pieces every trimester for our tri-annual Night at the Museum show. This innovative website displays our students' artwork in an efficient manner and helps them stand out. 
+
+### Scrum Board: [Link](https://github.com/mistylavender/RedTailedHawks/projects/1)
+
+### Contributors (Link to Graphs): [Link](https://github.com/mistylavender/RedTailedHawks/graphs/contributors)
 
 ### Our GitHub.io Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### History:
 | Week | Tasks | Link | 
@@ -18,10 +25,6 @@
 | Kira | [@4disease](https://github.com/4disease) | Primary Designer & Deployment Manager | *As Primary Designer:* Organize Thymeleaf enabled templates + use Bootstrap + polish frontend. *As Deployment Manager:* Deploy Website + establish policy and frequency for updates + ensure site is not broken and always alive for reviews. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3A4disease) | [Link](https://4disease.github.io/csa) | 
 | Rini | [@rkwreck](https://github.com/rkwreck) | Github Admin | Setup Project in Git + integrate any starter code from Trimester 1 & 2 + build policies for Fork and Pull requests + organize Git for each week's work | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Arkwreck) | [Link](https://rkwreck.github.io/rinik/) | 
 | Ridhima | [@ridhimainkurti](https://github.com/ridhimainukurti) | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Link](https://ridhimainukurti.github.io/triridhimainukurti/) | 
-
-### Scrum Board: [Link](https://github.com/mistylavender/RedTailedHawks/projects/1)
-
-### Contributors (Link to Graphs): [Link](https://github.com/mistylavender/RedTailedHawks/graphs/contributors)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
