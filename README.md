@@ -15,7 +15,7 @@ Del Norte's talented art students that produce outstanding pieces every trimeste
 | Week | Tasks | Link | 
 | :--: | :---: | :--: | 
 | 0 & 1 | set up scrum board + discussions with sponsor + created schedule/plan + developed basic wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | 
-| 2 | developed advanced wireframes & web page mockups | Link | 
+| 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | 
 
 
 ### Meet the Team:
