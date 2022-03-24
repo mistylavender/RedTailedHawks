@@ -44,7 +44,7 @@ Del Norte's talented art students that produce outstanding pieces every trimeste
 
 ![image](https://user-images.githubusercontent.com/89210546/159956785-9437fa0d-5035-4e9e-aa46-01fefc1ddbef.png)
 
-![image](https://user-images.githubusercontent.com/89210546/158834985-823a8359-e13e-4c91-9ff9-ea7094e7d444.png)
+![image](https://user-images.githubusercontent.com/89210546/159957571-d4a118a9-2cf3-40ac-ab2a-7e944e76e915.png)
 
 **Requirements & Jobs from Scrum Board:**
 ![image](https://user-images.githubusercontent.com/89210546/158838444-4e78e1fd-042f-4a02-bb85-d643f4dab385.png)
