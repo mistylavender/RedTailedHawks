@@ -3,6 +3,8 @@
 ### Our Purpose: 
 Del Norte's talented art students that produce outstanding pieces every trimester for our tri-annual Night at the Museum show. This innovative website displays our students' artwork in an efficient manner and helps them stand out. 
 
+### Original Website: https://delnorteart.wixsite.com/mysite
+
 ### Scrum Board: [Link](https://github.com/mistylavender/RedTailedHawks/projects/1)
 
 ### Contributors (Link to Graphs): [Link](https://github.com/mistylavender/RedTailedHawks/graphs/contributors)
@@ -30,6 +32,8 @@ Del Norte's talented art students that produce outstanding pieces every trimeste
 
 ## Week 2 
 
+### Advanced Wireframes: 
+![image](https://user-images.githubusercontent.com/89210546/159956243-5a6d8a6e-337a-4a6b-881a-f19d1e2d111d.png)
 
 
 ## Week 0 & 1
@@ -38,8 +42,7 @@ Del Norte's talented art students that produce outstanding pieces every trimeste
 
 ### Project Owner initial requirements & derivative tangibles:
 
-![image](https://user-images.githubusercontent.com/89210546/158834554-8769c511-368c-4d2c-8162-f3ed49d70604.png)
-
+![image](https://user-images.githubusercontent.com/89210546/159956785-9437fa0d-5035-4e9e-aa46-01fefc1ddbef.png)
 
 ![image](https://user-images.githubusercontent.com/89210546/158834985-823a8359-e13e-4c91-9ff9-ea7094e7d444.png)
 
