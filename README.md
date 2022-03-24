@@ -5,11 +5,11 @@ Del Norte's talented art students that produce outstanding pieces every trimeste
 
 ### Original Website: https://delnorteart.wixsite.com/mysite
 
+### Our GitHub.io Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
+
 ### Scrum Board: [Link](https://github.com/mistylavender/RedTailedHawks/projects/1)
 
 ### Contributors (Link to Graphs): [Link](https://github.com/mistylavender/RedTailedHawks/graphs/contributors)
-
-### Our GitHub.io Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
