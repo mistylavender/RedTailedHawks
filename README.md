@@ -1,5 +1,7 @@
 # RedTailedHawks
 
+## Our Purpose: Del Norte's talented art students that produce outstanding pieces every trimester for the tri-annual Night at the Museum show. This innovative website displays our student's artwork in an efficient manner and helps them stand out. 
+
 ### Our GitHub.io Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
 
 ### History:
