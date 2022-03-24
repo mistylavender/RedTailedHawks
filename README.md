@@ -1,6 +1,12 @@
 # RedTailedHawks
 
-## Our Github Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
+### Our Github Page: [Link](https://mistylavender.github.io/RedTailedHawks/)
+
+## History:
+| Week | Tasks | Link | 
+| :--: | :---: | :--: | 
+| 0 & 1 | scrum board set up + discussions with sponsor + created schedule/plan + developed wireframes | 
+
 
 ### Meet the Team:
 | Name | Profile | Role | Role Description | Tasks/Issues | Individual Github Pages | 
@@ -16,7 +22,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Week 1 
+## Week 0 & 1
 
 ### Project Owner initial requirements & derivative tangibles:
 
@@ -25,10 +31,17 @@
 
 ![image](https://user-images.githubusercontent.com/89210546/158834985-823a8359-e13e-4c91-9ff9-ea7094e7d444.png)
 
+**Requirements & Jobs from Scrum Board:**
+![image](https://user-images.githubusercontent.com/89210546/158838444-4e78e1fd-042f-4a02-bb85-d643f4dab385.png)
+
+**Wireframes, Plan, Schedule: [Link to Wiki Page](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)**
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Requirements & Jobs from Scrum Board:
 
-![image](https://user-images.githubusercontent.com/89210546/158838444-4e78e1fd-042f-4a02-bb85-d643f4dab385.png)
+
+
+
+
 
 
