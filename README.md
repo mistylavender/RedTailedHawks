@@ -5,7 +5,7 @@
 ## History:
 | Week | Tasks | Link | 
 | :--: | :---: | :--: | 
-| 0 & 1 | scrum board set up + discussions with sponsor + created schedule/plan + developed wireframes | 
+| 0 & 1 | scrum board set up + discussions with sponsor + created schedule/plan + developed wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | 
 
 
 ### Meet the Team:
