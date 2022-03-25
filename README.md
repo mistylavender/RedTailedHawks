@@ -33,7 +33,8 @@ Project owner and sponsor: Mr. Coleman
 
 ## Week 2 
 
-### Advanced Wireframes: [Link](https://docs.google.com/presentation/d/17oasyQe4Zwlv6e4KuftSSc8zoYxDBkMMNwjyzi693fI/edit#slide=id.g11f0bf22b0b_2_0) 
+### Advanced Wireframes: [Link](https://github.com/mistylavender/RedTailedHawks/wiki/Advanced-Wireframes-&-Website-Plans-%7C-Week-2) 
+
 ![image](https://user-images.githubusercontent.com/89210546/159956243-5a6d8a6e-337a-4a6b-881a-f19d1e2d111d.png)
 
 
