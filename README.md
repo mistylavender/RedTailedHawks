@@ -15,10 +15,10 @@ Project owner and sponsor: Mr. Coleman
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### History:
-| Week | Tasks | Link | 
-| :--: | :---: | :--: | 
-| 0 & 1 | set up scrum board + discussions with sponsor + created schedule/plan + developed basic wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | 
-| 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | 
+| Week | Tasks | Work Link on READMe | Review Ticket | 
+| :--: | :---: | :-------: | :-----------: | 
+| 0 & 1 | set up scrum board + discussions with sponsor + created schedule/plan + developed basic wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/9) | 
+| 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/11) | 
 
 
 ### Meet the Team:
