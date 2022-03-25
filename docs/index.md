@@ -8,6 +8,7 @@ Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
 
 | Requirement | Link |
 | ---  | ---  |
+| Project Plan for Trimester Presentation: Sponsor, Wireframes, Data, GitHub | [Project Presentation](https://docs.google.com/presentation/d/17oasyQe4Zwlv6e4KuftSSc8zoYxDBkMMNwjyzi693fI/edit?usp=sharing) |
 | Web Project: Project Description, Ideas, Wires, Success Idea | [Project Wiki](https://github.com/mistylavender/RedTailedHawks/wiki/Project-Design-Wireframe)|
 | Embed Project: Hardware Idea, Project Description, Success Idea | [Github](https://github.com/mistylavender/RedTailedHawks/tree/master) |
 | Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
