@@ -35,7 +35,11 @@ Project owner and sponsor: Mr. Coleman
 
 ### Advanced Wireframes: [Wiki Page Link](https://github.com/mistylavender/RedTailedHawks/wiki/Advanced-Wireframes-&-Website-Plans-%7C-Week-2) 
 
-![image](https://user-images.githubusercontent.com/89210546/159956243-5a6d8a6e-337a-4a6b-881a-f19d1e2d111d.png)
+![image](https://user-images.githubusercontent.com/89210546/160436899-3efa90e6-e046-4cf6-8fd8-6a0a54fdbd02.png)
+
+![image](https://user-images.githubusercontent.com/89210546/160436925-87451557-a982-496d-ad0d-c3857fb164f1.png)
+
+![image](https://user-images.githubusercontent.com/89210546/160436949-f801fa39-474d-4a16-a4f7-fceda115dec8.png)
 
 ### Feedback: Website does not consider non-static types such as Music, CS, or 3D Anim 2. 
 New plan: non-static types will be uploaded as a video on a platform such as YouTube. The video embed will be on the website so it's easily viewable and accessible. That way, when students upload their work, they won't be submitting an image, they'll be submitting a video for the non-static works. 
