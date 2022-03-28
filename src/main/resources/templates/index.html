@@ -5,30 +5,34 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Spring Intro</title>
+    <title>Night at the Museum</title>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
+<body onload="$('.carousel').carousel()"><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong>Java and Spring</strong></h1>
-        <h3><strong>What is Spring?</strong></h3>
-        <ol>
-            <li>Spring Framework is the most popular application development framework of Java. </li>
-            <li>Spring Boot helps to create a stand-alone application with less configuration.</li>
-            <li>Spring MVC is a model view controller-based web framework under the Spring framework.</li>
-            <li>ThymeLeaf is a server-side Java template engine, support HTML5 JVM web development, and provides full integration with Spring Framework.</li>
-        </ol>
-        <h3><strong>What should Java Developers learn?</strong></h3>
-        <ol>
-            <li>Development DevOps. Java programmers should have a passion for managing the environment and learning automation (Maven, Gradle, DevOps, Deployment.</li>
-            <li>Git/GitHub.  Learning to master managing change, branches, pull requests.</li>
-            <li>REST services using Spring.  Mastering creating and consuming RESTful APIs</li>
-            <li>Microservices are nothing but an extension of RESTful Web services with the main objective being to break up your code into small, distributed, and independent services.</li>
-            <li>Java 9-15. Java 8 is AP standard.  Things like Jigsaw, Reactive Streams, Process API, HTTP2 client, JShell, React JS are all more recent</li>
-        </ol>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="width: 1vw;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thephoblographer.com%2F2020%2F05%2F01%2Fhilarious-weird-stock-photos%2F&psig=AOvVaw2Dq_Y0ukVwaN-79nTEZUes&ust=1647620976902000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDy8szIzfYCFQAAAAAdAAAAABAD" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thephoblographer.com%2F2020%2F05%2F01%2Fhilarious-weird-stock-photos%2F&psig=AOvVaw2Dq_Y0ukVwaN-79nTEZUes&ust=1647620976902000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDy8szIzfYCFQAAAAAdAAAAABAD" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thephoblographer.com%2F2020%2F05%2F01%2Fhilarious-weird-stock-photos%2F&psig=AOvVaw2Dq_Y0ukVwaN-79nTEZUes&ust=1647620976902000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDy8szIzfYCFQAAAAAdAAAAABAD" alt="Third slide">
+            </div>
+        </div>
     </div>
+
+    <div style="margin: 30px;">
+        <h>Night at the museum</h>
+    </div>
+
+<!--    <script>-->
+<!--        $('.carousel').carousel()-->
+<!--    </script>-->
+
     <!-- End of body content specific to page -->
 </div></body>
 

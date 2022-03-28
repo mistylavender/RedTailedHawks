@@ -1,0 +1,23 @@
+.theme-dark {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --body-bg: #ffffff;
+}
+
+.theme-light {
+  --primary: #ffffff;
+  --secondary: #000000;
+  --body-bg: #000000;
+}
+
+.navbar{
+  background-color:var(--primary);
+}
+
+html, body {
+  background-color: var(--body-bg) !important;
+}
+
+.nav-link {
+  color:var(--secondary) !important;
+}

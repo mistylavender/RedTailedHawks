@@ -6,10 +6,10 @@
 </head>
 <body>
     <!-- Bootstrap Navigation Code -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
-        <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
-            <img src="/static/images/ncs_logo.png" th:src="@{/images/ncs_logo.png}" width="50" height="50" class="d-inline-block align-center" alt="">
-            Nighthawk Coders
+    <nav class="navbar navbar-expand-lg dark-nav" th:fragment="header">
+        <a class="navbar-brand nav-link" href="http://nighthawkcodingsociety.com/">
+            <img src="https://www.powayusd.com/PUSD/media/DNHS/images/DNHSLogo.png?ext=.png" width="50" height="50" class="d-inline-block align-center" alt="">
+            DNHS N@TM
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -19,78 +19,52 @@
             <ul class="navbar-nav mr-auto">
                 <!--root menu -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Starters
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/greet">Spring Greeting</a>
-                        <a class="dropdown-item" href="/binary">Binary Math</a>
-                        <a class="dropdown-item" href="/image">Images</a>
-                    </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/gallery">Browse</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Data
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/sql/person">SQL Person</a>
-                        <a class="dropdown-item" href="/sql/family">SQL Family</a>
-                        <a class="dropdown-item" href="/covid19">RapidAPI Covid19</a>
-                    </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/about">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Algorithms
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/data">Data Filters</a>
-                        <a class="dropdown-item" href="/fib">Fibonacci</a>
-                        <a class="dropdown-item" href="/pali">Palindrome</a>
-                        <a class="dropdown-item" href="/snake">JavaScript Snake</a>
-                    </div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/login">Student</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdowno" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Course-materials
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/course/repos">Repos</a>
-                        <a class="dropdown-item" href="/course/deploy">Deployment</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" th:href="@{/pdf/sanvipal_javaref.pdf}">Traditional Journal</a>
-                        <a class="dropdown-item" href="https://freekashmir.nighthawkcodingsociety.com/" target="_blank" rel="noopener noreferrer">PBL Journal</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/course/tri1">Tri 1</a>
-                    </div>
-                </li>
+
             </ul>
                 <!-- Clock display -->
-                <div class="px-3">
-                    <span id="clock"></span>
-                </div>
                 <!-- Dark mode action -->
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
-                    <label class="custom-control-label" for="darkSwitch"></label>
-                </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" onchange="toggleTheme()" class="custom-control-input" id="slider">
+            </div>
             <!-- Navigation bar JavaScript support -->
             <script>
                 // Dark Mode Toggle
-                function darkFunction() {
-                    let element = document.body;
-                    element.classList.toggle("dark-mode");
+                function setTheme(themeName) {
+                    localStorage.setItem('theme', themeName);
+                    document.documentElement.className = themeName;
                 }
-                // Clock controller
-                let clockElement = document.getElementById('clock');
-                function clock() {
-                    let date = new Date();
-                    clockElement.textContent = date.toLocaleString();
+
+
+                // function to toggle between light and dark theme
+                function toggleTheme() {
+                    if (localStorage.getItem('theme') === 'theme-dark') {
+                        setTheme('theme-light');
+                    } else {
+                        setTheme('theme-dark');
+                    }
                 }
-                // Clock refresh frequency
-                setInterval(clock, 1000);
+
+                // Immediately invoked function to set the theme on initial load
+                (function () {
+                    if (localStorage.getItem('theme') === 'theme-dark') {
+                        setTheme('theme-dark');
+                        document.getElementById('slider').checked = false;
+                    } else {
+                        setTheme('theme-light');
+                        document.getElementById('slider').checked = true;
+                    }
+                })();
             </script>
         </div>
     </nav>
