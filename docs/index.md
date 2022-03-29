@@ -4,6 +4,15 @@ Project Description: Create an innovate website where it displays the Night of M
 ### Team Members
 Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
 
+### Deployment Plan
+
+Short Term 
+Have the website be running and deployed on our raspberry pie for the June Night at Museum 
+
+Long Term 
+Talked with Mr. Coleman and prefers to have a sub domain within the nighthawk coders society domain (for now)
+
+
 ### Teams, Plans, Jobs 
 
 | Requirement | Link |
