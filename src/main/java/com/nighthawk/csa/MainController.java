@@ -22,4 +22,9 @@ public class MainController {
         return "Database/login";
     }
 
+    @GetMapping("/gallery")
+    public String Gallery(Model model) {
+        return "/gallery";
+    }
+
 }
