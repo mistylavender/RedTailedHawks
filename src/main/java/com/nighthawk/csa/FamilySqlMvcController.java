@@ -18,10 +18,10 @@ import javax.validation.Valid;
 public class FamilySqlMvcController implements WebMvcConfigurer {
 
     @Autowired
-    private FamilySqlRepository familySqlRepository;
+    private TeacherSqlRepository familySqlRepository;
 
     @Autowired
-    private PersonSqlRepository personSqlRepository;
+    private StudentSqlRepository personSqlRepository;
 
     @GetMapping("/sql/family")
     public String family(Model model) {

@@ -23,7 +23,7 @@ public class PersonSqlMvcController implements WebMvcConfigurer {
 
     // Autowired enables Control to connect HTML and POJO Object to Database easily for CRUD
     @Autowired
-    private PersonSqlRepository repository;
+    private StudentSqlRepository repository;
 
     @GetMapping("/sql/person")
     public String person(Model model) {

@@ -10,24 +10,24 @@ import java.util.List;
 This class has an instance of Java Persistence API (JPA)
 -- @Autowired annotation. Allows Spring to resolve and inject collaborating beans into our bean.
 -- Spring Data JPA will generate a proxy instance
--- Below are the CRUD methods that we can use with our database
+-- Below are some CRUD methods that we can use with our database
 */
 @Service
 @Transactional
-public class FamilySqlRepository {
+public class StudentSqlRepository {
 
     @Autowired
-    private FamilyJpaRepository jpa;
+    private StudentJpaRepository jpa;
 
-    public List<Family> listAll() {
+    public  List<Student>listAll() {
         return jpa.findAll();
     }
 
-    public void save(Family family) {
-        jpa.save(family);
+    public void save(Student person) {
+        jpa.save(person);
     }
 
-    public Family get(long id) {
+    public Student get(long id) {
         return jpa.findById(id).get();
     }
 

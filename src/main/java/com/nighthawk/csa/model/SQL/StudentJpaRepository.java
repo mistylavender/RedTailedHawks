@@ -8,6 +8,6 @@ Extends the JpaRepository interface from Spring Data JPA.
 -- JpaRepository defines standard CRUD methods
 -- Via JPA the developer can retrieve data from relational databases to Java objects and vice versa.
  */
-public interface FamilyJpaRepository extends JpaRepository<Family, Long> {
+public interface StudentJpaRepository extends JpaRepository<Student, Long> {
 
 }
