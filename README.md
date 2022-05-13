@@ -19,6 +19,7 @@ Project owner and sponsor: Mr. Coleman
 | :--: | :---: | :-------: | :-----------: | 
 | 0 & 1 | set up scrum board + discussions with sponsor + created schedule/plan + developed basic wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/9) | 
 | 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/11) | 
+| 3 | began working on website frontend | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-3) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/16) | 
 
 
 ### Meet the Team:
@@ -30,6 +31,9 @@ Project owner and sponsor: Mr. Coleman
 | Ridhima | [@ridhimainkurti](https://github.com/ridhimainukurti) | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Link](https://ridhimainukurti.github.io/triridhimainukurti/) | [Link](https://github.com/mistylavender/RedTailedHawks/commits?author=ridhimainukurti) | 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Week 3 
+
 
 ## Week 2 
 
