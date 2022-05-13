@@ -1,5 +1,5 @@
 ## Welcome to RedTailedHawks GitHub Pages
-Del Norte's talented art students that produce outstanding pieces every trimester for our tri-annual Night at the Museum show. This innovative website showcases our students' artwork in an efficient manner and helps them stand out. Project owner and sponsor: Mr. Coleman
+Del Norte's talented art students that produce outstanding pieces every trimester for our tri-annual Night at the Museum show. Our innovative website showcases our students' artwork in an efficient manner and helps them stand out. Project owner and sponsor: Mr. Coleman
 
 ### Team Members
 Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
