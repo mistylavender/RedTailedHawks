@@ -1,5 +1,5 @@
 ## Welcome to RedTailedHawks GitHub Pages
-Project Description: Create an innovate website where it displays the Night of Museum's artwork in an efficient manner.
+Del Norte's talented art students that produce outstanding pieces every trimester for our tri-annual Night at the Museum show. This innovative website showcases our students' artwork in an efficient manner and helps them stand out. Project owner and sponsor: Mr. Coleman
 
 ### Team Members
 Natasha Kapoor, Kira Liao, Ridhima Inukurti, Rini K
