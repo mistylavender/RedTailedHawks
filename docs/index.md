@@ -23,10 +23,20 @@ Talked with Mr. Coleman and prefers to have a sub domain within the nighthawk co
 | Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
 | Scrum Board started | [Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1) |
 
-### Jekyll Themes
+## Week 3 (5/13) Updates: Frontend & Database
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mistylavender/RedTailedHawks/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<img width="1083" alt="Screen Shot 2022-05-13 at 8 21 22 AM" src="https://user-images.githubusercontent.com/89210546/168315462-8c8fc88f-0ab3-482a-930a-98ab422f768f.png">
 
-### Support or Contact
+<img width="1082" alt="Screen Shot 2022-05-13 at 8 21 29 AM" src="https://user-images.githubusercontent.com/89210546/168315474-b80c1d53-769b-4815-936f-c75aae694f7e.png">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<img width="1077" alt="Screen Shot 2022-05-13 at 8 21 35 AM" src="https://user-images.githubusercontent.com/89210546/168315486-b55f6fff-b084-4359-b882-db641c71f6a6.png">
+
+<img width="1081" alt="Screen Shot 2022-05-13 at 8 25 29 AM" src="https://user-images.githubusercontent.com/89210546/168316398-99e39bf0-2421-47e3-b8aa-20b07c150c6a.png">
+
+## 5/11 Updates: Frontend
+Notes: 
+- Navigation bar updated w/ different pages linked
+- Updated Toggling Dark Mode
+- Need more development of pages, fix errors with pngs, etc.
+
+![image](https://user-images.githubusercontent.com/89210459/167898488-44a10ed6-3429-45e6-942a-7fb87fd59b77.png)
