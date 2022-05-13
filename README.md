@@ -19,7 +19,7 @@ Project owner and sponsor: Mr. Coleman
 | :--: | :---: | :-------: | :-----------: | 
 | 0 & 1 | set up scrum board + discussions with sponsor + created schedule/plan + developed basic wireframes | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-0--1) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/9) | 
 | 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/11) | 
-| 3 | began working on website frontend | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-3) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/16) | 
+| 3 | began working on website frontend & created database | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-3) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/16) | 
 
 
 ### Meet the Team:
@@ -34,13 +34,19 @@ Project owner and sponsor: Mr. Coleman
 
 ## Week 3 
 
+Wiki page: [Link](https://github.com/mistylavender/RedTailedHawks/wiki/N@TM-Website-Updates)
+
+### Frontend: 
 <img width="1083" alt="Screen Shot 2022-05-13 at 8 21 22 AM" src="https://user-images.githubusercontent.com/89210546/168315462-8c8fc88f-0ab3-482a-930a-98ab422f768f.png">
 
 <img width="1082" alt="Screen Shot 2022-05-13 at 8 21 29 AM" src="https://user-images.githubusercontent.com/89210546/168315474-b80c1d53-769b-4815-936f-c75aae694f7e.png">
 
 <img width="1077" alt="Screen Shot 2022-05-13 at 8 21 35 AM" src="https://user-images.githubusercontent.com/89210546/168315486-b55f6fff-b084-4359-b882-db641c71f6a6.png">
 
-Wiki page: [Link](https://github.com/mistylavender/RedTailedHawks/wiki/N@TM-Website-Updates)
+
+## Database: 
+
+<img width="1081" alt="Screen Shot 2022-05-13 at 8 25 29 AM" src="https://user-images.githubusercontent.com/89210546/168316259-6b519e4f-3636-484c-8f3f-4966eadb9f3f.png">
 
 
 ## Week 2 
