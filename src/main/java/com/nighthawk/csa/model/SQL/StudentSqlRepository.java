@@ -19,6 +19,8 @@ public class StudentSqlRepository {
     @Autowired
     private StudentJpaRepository jpa;
 
+
+
     public  List<Student>listAll() {
         return jpa.findAll();
     }

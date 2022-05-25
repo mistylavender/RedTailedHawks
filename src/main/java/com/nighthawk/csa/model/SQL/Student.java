@@ -21,7 +21,6 @@ The last annotation connect to database
 @Getter
 @ToString
 @NoArgsConstructor
-@RequiredArgsConstructor
 @Entity
 public class Student {
     @Id
