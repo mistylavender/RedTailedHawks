@@ -23,6 +23,20 @@ Talked with Mr. Coleman and prefers to have a sub domain within the nighthawk co
 | Teams Roles described, Project Owner described | [Team Roles Wiki](https://github.com/mistylavender/RedTailedHawks/wiki) |
 | Scrum Board started | [Scrum Board](https://github.com/mistylavender/RedTailedHawks/projects/1) |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Week 5 (5/26)
+Code commits:
+
+<img width="500" alt="Screen Shot 2022-05-26 at 8 42 15 AM" src="https://user-images.githubusercontent.com/89210546/170523461-c5106c20-0327-4e19-a136-90fe7f675f8f.png">
+
+## Week 4 (5/18)
+Code commits:
+
+<img width="886" alt="Screen Shot 2022-05-19 at 8 34 17 AM" src="https://user-images.githubusercontent.com/89210546/169337689-558b8842-2b09-49d7-adbd-7d53340fd1fa.png">
+
+<img width="984" alt="Screen Shot 2022-05-19 at 8 34 26 AM" src="https://user-images.githubusercontent.com/89210546/169337700-59999b51-0020-49cd-a904-9a1d4bc8b2d8.png">
+
 ## Week 3 (5/13) Updates: Frontend & Database
 
 <img width="1083" alt="Screen Shot 2022-05-13 at 8 21 22 AM" src="https://user-images.githubusercontent.com/89210546/168315462-8c8fc88f-0ab3-482a-930a-98ab422f768f.png">
