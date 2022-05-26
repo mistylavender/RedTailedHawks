@@ -21,6 +21,7 @@ Project owner and sponsor: Mr. Coleman
 | 2 | developed advanced wireframes & web page mockups | [Link](https://github.com/mistylavender/RedTailedHawks/blob/master/README.md#week-2) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/11) | 
 | 3 | began working on website frontend & created database | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-3) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/16) | 
 | 4 | began creating tables | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-4) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/21) | 
+| 5 | added controls + more work on tables + meeting with sponsor | [Link](https://github.com/mistylavender/RedTailedHawks/edit/master/README.md#week-5) | [Ticket](https://github.com/mistylavender/RedTailedHawks/issues/22)
 
 
 ### Meet the Team:
@@ -30,6 +31,13 @@ Project owner and sponsor: Mr. Coleman
 | Kira | [@4disease](https://github.com/4disease) | Primary Designer & Deployment Manager | *As Primary Designer:* Organize Thymeleaf enabled templates + use Bootstrap + polish frontend. *As Deployment Manager:* Deploy Website + establish policy and frequency for updates + ensure site is not broken and always alive for reviews. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3A4disease) | [Link](https://4disease.github.io/csa) | [Link](https://github.com/mistylavender/RedTailedHawks/commits?author=4disease) | 
 | Rini | [@rkwreck](https://github.com/rkwreck) | Github Admin | Setup Project in Git + integrate any starter code from Trimester 1 & 2 + build policies for Fork and Pull requests + organize Git for each week's work | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Arkwreck) | [Link](https://rkwreck.github.io/rinik/) | [Link](https://github.com/mistylavender/RedTailedHawks/commits?author=rkwreck) | 
 | Ridhima | [@ridhimainkurti](https://github.com/ridhimainukurti) | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Link](https://ridhimainukurti.github.io/triridhimainukurti/) | [Link](https://github.com/mistylavender/RedTailedHawks/commits?author=ridhimainukurti) | 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Week 5
+Code commits:
+
+<img width="500" alt="Screen Shot 2022-05-26 at 8 42 15 AM" src="https://user-images.githubusercontent.com/89210546/170523461-c5106c20-0327-4e19-a136-90fe7f675f8f.png">
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
