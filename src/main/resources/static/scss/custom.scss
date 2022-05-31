@@ -10,6 +10,16 @@
   --body-bg: #000000;
 }
 
+@font-face{
+  font-family: rosmatika;
+  src: url(rosmatika.ttf);
+}
+
+.titlehead{
+  font-family: rosmatika;
+  color: var(--secondary);
+}
+
 .navbar{
   background-color:var(--primary);
 }

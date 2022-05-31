@@ -1,5 +1,6 @@
 package com.nighthawk.csa.model.SQL.Teacher;
 
+import com.nighthawk.csa.model.SQL.Role.Role;
 import org.springframework.format.annotation.DateTimeFormat;
 import lombok.*;
 

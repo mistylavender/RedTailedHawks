@@ -1,4 +1,4 @@
-package com.nighthawk.csa.consoleUI;
+package com.nighthawk.csa.model.SQL.Note;
 
 import lombok.*;
 

@@ -17,9 +17,14 @@ import java.util.HashMap;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class MainController {
 
-    @GetMapping("/Database/login")
-    public String databaseLogin(Model model) {
-        return "Database/login";
+    @GetMapping("/login")
+    public String Login(Model model) {
+        return "/login";
+    }
+
+    @GetMapping("/studentaccount")
+    public String studentAccount(Model model) {
+        return "/studentaccount";
     }
 
     @GetMapping("/gallery")

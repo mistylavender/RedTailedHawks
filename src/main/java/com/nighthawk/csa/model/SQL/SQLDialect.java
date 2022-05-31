@@ -59,3 +59,4 @@ public class SQLDialect extends Dialect {
     public String getIdentitySelectString() {
         return "select last_insert_rowid()";
     }
+}
