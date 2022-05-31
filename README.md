@@ -1,7 +1,7 @@
 # RedTailedHawks
 
 ### Our Purpose: 
-Del Norte's talented art students produce outstanding pieces every trimester for our tri-annual Night at the Museum show. Our innovative website showcases our students' artwork in an efficient manner and helps them stand out. 
+Del Norte's talented art students produce outstanding artwork every trimester for our tri-annual Night at the Museum show. Our innovative website showcases our students' pieces in an efficient manner and helps them stand out. 
 Project owner and sponsor: Mr. Coleman
 
 ### Original Website: https://delnorteart.wixsite.com/mysite
