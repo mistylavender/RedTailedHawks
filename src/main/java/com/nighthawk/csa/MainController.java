@@ -27,4 +27,9 @@ public class MainController {
         return "/gallery";
     }
 
+    @GetMapping("/about")
+    public String About(Model model) {
+        return "/about";
+    }
+
 }
