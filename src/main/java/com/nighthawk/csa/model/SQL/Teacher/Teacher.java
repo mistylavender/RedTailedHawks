@@ -1,18 +1,17 @@
 package com.nighthawk.csa.model.SQL.Teacher;
 
 import com.nighthawk.csa.model.SQL.Role.Role;
-import org.springframework.format.annotation.DateTimeFormat;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
 
 import javax.persistence.*;
-import javax.validation.constraints.*;
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.ZoneId;
-import java.util.*;
+import javax.validation.constraints.Size;
+import java.util.ArrayList;
+import java.util.Collection;
 
 import static javax.persistence.FetchType.EAGER;
-import static javax.persistence.FetchType.LAZY;
 
 @Data
 @NoArgsConstructor
