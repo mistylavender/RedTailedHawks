@@ -17,7 +17,7 @@ public interface StudentJpaRepository extends JpaRepository<Student, Long> {
     List<Student> findAllByOrderByNameAsc();
 
     // JPA query, findBy does JPA magic with "Name", "Containing", "Or", "Email", "IgnoreCase"
-    List<Student> findByNameContainingIgnoreCaseOrEmailContainingIgnoreCase(String name, String username);
+    List<Student> findByNameContainingIgnoreCase(String name);
     /* Custom JPA query articles, there are articles that show custom SQL as well
        https://springframework.guru/spring-data-jpa-query/
        https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods

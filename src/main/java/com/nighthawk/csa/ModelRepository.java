@@ -65,7 +65,7 @@ public class ModelRepository implements UserDetailsService {  // "implements" ti
 
     // custom query to find anything containing term in name or email ignoring case
     public  List<Student>listLike(String term) {
-        return studentJpaRepository.findByNameContainingIgnoreCaseOrEmailContainingIgnoreCase(term, term);
+        return studentJpaRepository.findByNameContainingIgnoreCase(term);
     }
 
     // custom query to find anything containing term in name or email ignoring case
