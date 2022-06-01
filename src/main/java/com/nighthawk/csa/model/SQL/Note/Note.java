@@ -1,5 +1,6 @@
 package com.nighthawk.csa.model.SQL.Note;
 
+import com.nighthawk.csa.model.SQL.Student.Student;
 import lombok.*;
 
 import javax.persistence.*;
@@ -16,7 +17,7 @@ public class Note {
 
     @ManyToOne
     @JoinColumn(name="student_id")
-    private Person student;
+    private Student student;
 
     @NotNull
     @Column(columnDefinition="TEXT")
