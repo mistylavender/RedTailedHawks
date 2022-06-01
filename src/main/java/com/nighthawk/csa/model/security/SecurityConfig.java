@@ -33,7 +33,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
          */
         web
                 .ignoring()
-                .antMatchers("/resources/**", "/static/**",  "/images/**", "/scss/**", "/uploads/**")
+                .antMatchers("/resources/**", "/static/**",  "/images/**", "/scss/**", "/uploads/**", "/studentaccount", "/gallery", "/about")
         ;
     }
 
@@ -46,11 +46,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
          */
         http
                 .authorizeRequests()
-                .antMatchers(POST, "/api/person/post/**").hasAnyAuthority("ROLE_STUDENT")
-                .antMatchers(DELETE, "/api/person/delete/**").hasAnyAuthority("ROLE_ADMIN")
-                .antMatchers("/database/personupdate/**").hasAnyAuthority("ROLE_STUDENT")
-                .antMatchers("/database/persondelete/**").hasAnyAuthority("ROLE_ADMIN")
-                .antMatchers( "/api/person/**").permitAll()
+                .antMatchers(POST, "/api/student/post/**").hasAnyAuthority("ROLE_STUDENT")
+                .antMatchers(DELETE, "/api/student/delete/**").hasAnyAuthority("ROLE_ADMIN")
+                .antMatchers("/sql/studentupdate/**").hasAnyAuthority("ROLE_STUDENT")
+                .antMatchers("/sql/studentdelete/**").hasAnyAuthority("ROLE_ADMIN")
+                .antMatchers( "/api/student/**").permitAll()
                 .antMatchers( "/api/refresh/token/**").permitAll()
                 .antMatchers("/", "/starters/**", "/frontend/**", "/mvc/**", "/database/person/**", "/database/personcreate", "/database/scrum/**", "/course/**").permitAll()
                 .anyRequest().authenticated()
@@ -61,7 +61,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
-                .logoutSuccessUrl("/database/person")
+                .logoutSuccessUrl("/sql/student")
                 .permitAll()
         ;
         // Cross-Site Request Forgery needs to be disabled to allow activation of JS Fetch URIs
