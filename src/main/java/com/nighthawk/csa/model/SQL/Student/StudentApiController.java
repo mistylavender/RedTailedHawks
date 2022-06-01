@@ -1,7 +1,7 @@
 package com.nighthawk.csa.model.SQL.Student;
 
 import com.nighthawk.csa.ModelRepository;
-
+import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -9,11 +9,9 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import org.json.simple.JSONObject;
-
-import java.util.*;
-
-import java.text.SimpleDateFormat;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/student")
@@ -56,20 +54,14 @@ public class StudentApiController {
     POST Aa record by Requesting Parameters from URI
      */
     @PostMapping( "/post")
-    public ResponseEntity<Object> postPerson(@RequestParam("email") String email,
+    public ResponseEntity<Object> postPerson(@RequestParam("username") String username,
                                              @RequestParam("password") String password,
-                                             @RequestParam("name") String name,
-                                             @RequestParam("dob") String dobString) {
-        Date dob;
-        try {
-            dob = new SimpleDateFormat("MM-dd-yyyy").parse(dobString);
-        } catch (Exception e) {
-            return new ResponseEntity<>(dobString +" error; try MM-dd-yyyy", HttpStatus.BAD_REQUEST);
-        }
+                                             @RequestParam("name") String name) {
+
         // A person object WITHOUT ID will create a new record with default roles as student
-        Student student = new Student(email, password, name, dob, repository.findRole("ROLE_STUDENT") );
+        Student student = new Student(username, password, name, repository.findRole("ROLE_STUDENT") );
         repository.save(student);
-        return new ResponseEntity<>(email +" is created successfully", HttpStatus.CREATED);
+        return new ResponseEntity<>(username +" is created successfully", HttpStatus.CREATED);
     }
 
     /*

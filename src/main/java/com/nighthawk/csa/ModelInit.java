@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 @Component // Scans Application for ModelInit Bean, this detects CommandLineRunner
 public class ModelInit {
     // Inject repositories
-    @Autowired RoleJpaRepository roleJpaRepository;
+    @Autowired
+    RoleJpaRepository roleJpaRepository;
     @Autowired
     ModelRepository modelRepository;
 
@@ -34,7 +35,7 @@ public class ModelInit {
             modelRepository.addRoleToPerson("jmort1021@gmail.com", "ROLE_TEACHER");
             modelRepository.addRoleToPerson("jmort1021@gmail.com", "ROLE_ADMIN");
 
-            Student student = modelRepository.getByEmail("jmort1021@gmail.com");
+            Student student = modelRepository.getByUsername("jmort1021@gmail.com");
 
         };
     }

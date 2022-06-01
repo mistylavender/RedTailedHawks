@@ -44,8 +44,8 @@ public class ModelRepository implements UserDetailsService {  // "implements" ti
 
     /* UserDetailsService Overrides and maps Person & Roles POJO into Spring Security */
     @Override
-    public org.springframework.security.core.userdetails.UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        Student student = studentJpaRepository.findByEmail(email); // setting variable user equal to the method finding the username in the database
+    public org.springframework.security.core.userdetails.UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Student student = studentJpaRepository.findByUsername(username); // setting variable user equal to the method finding the username in the database
         if(student ==null){
             throw new UsernameNotFoundException("User not found in database");
         }
@@ -53,7 +53,7 @@ public class ModelRepository implements UserDetailsService {  // "implements" ti
         student.getRoles().forEach(role -> { //loop through roles
             authorities.add(new SimpleGrantedAuthority(role.getName())); //create a SimpleGrantedAuthority by passed in role, adding it all to the authorities list, list of roles gets past in for spring security
         });
-        return new org.springframework.security.core.userdetails.User(student.getEmail(), student.getPassword(), authorities);
+        return new org.springframework.security.core.userdetails.User(student.getUsername(), student.getPassword(), authorities);
     }
 
 
@@ -85,8 +85,8 @@ public class ModelRepository implements UserDetailsService {  // "implements" ti
                 : null;
     }
 
-    public Student getByEmail(String email) {
-        return (studentJpaRepository.findByEmail(email));
+    public Student getByUsername(String username) {
+        return (studentJpaRepository.findByUsername(username));
     }
 
     public void delete(long id) {
@@ -125,8 +125,8 @@ public class ModelRepository implements UserDetailsService {  // "implements" ti
         return roleJpaRepository.findByName(roleName);
     }
 
-    public void addRoleToPerson(String email, String roleName) { // by passing in the two strings you are giving the user that certain role
-        Student student = studentJpaRepository.findByEmail(email);
+    public void addRoleToPerson(String username, String roleName) { // by passing in the two strings you are giving the user that certain role
+        Student student = studentJpaRepository.findByUsername(username);
         if (student != null) {   // verify person
             Role role = roleJpaRepository.findByName(roleName);
             if (role != null) { // verify role

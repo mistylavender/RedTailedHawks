@@ -46,7 +46,7 @@ public class StudentViewController {
             return "sql/studentcreate";
         }
         repository.save(student);
-        repository.addRoleToPerson(student.getEmail(), "ROLE_STUDENT");
+        repository.addRoleToPerson(student.getUsername(), "ROLE_STUDENT");
         // Redirect to next step
         return "redirect:/sql/studentcreate";
     }
@@ -64,7 +64,7 @@ public class StudentViewController {
             return "sql/studentupdate";
         }
         repository.save(student);
-        repository.addRoleToPerson(student.getEmail(), "ROLE_STUDENT");
+        repository.addRoleToPerson(student.getUsername(), "ROLE_STUDENT");
 
         // Redirect to next step
         return "redirect:/sql/studentcreate";
