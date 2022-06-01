@@ -33,7 +33,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
          */
         web
                 .ignoring()
-                .antMatchers("/resources/**", "/static/**",  "/images/**", "/scss/**", "/uploads/**", "/studentaccount", "/gallery", "/about")
+                .antMatchers("/resources/**", "/static/**",  "/images/**", "/scss/**", "/uploads/**", "/gallery", "/about")
         ;
     }
 
@@ -52,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/sql/studentdelete/**").hasAnyAuthority("ROLE_ADMIN")
                 .antMatchers( "/api/student/**").permitAll()
                 .antMatchers( "/api/refresh/token/**").permitAll()
-                .antMatchers("/", "/starters/**", "/frontend/**", "/mvc/**", "/database/person/**", "/database/personcreate", "/database/scrum/**", "/course/**").permitAll()
+                .antMatchers("/", "/starters/**", "/frontend/**", "/mvc/**", "/database/person/**", "/sql/studentcreate", "/course/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()

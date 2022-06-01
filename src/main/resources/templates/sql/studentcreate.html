@@ -6,45 +6,125 @@
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <title>Person Form</title>
-</div></head>
+    <style>
+        body {
+            background-color: #F3EBF6;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
-<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
-    <div style="margin: 2%;">
-        <h3>Welcome, Enter The Persons Details</h3>
-        <!-- ThymeLeaf allows student abject of the Class Person to be acted upon by the form
-         This is known as a “bean-backed form” or "form-backing bean".
-            th:object - the backend form object (bean object)
-         There are two fields in the Person bean,
-            th:field="*{name}"
-            th:field="*{age}".
-         Each field has supporting line for to show errors in validation
-            th:errors - form input errors added when validation errors occur
-         .-->
-        <form action="#" th:action="@{/sql/studentcreate}" th:object="${student}" method="POST">
-            <table>
-                <tr>
-                    <td>Email:</td>
-                    <td><input type="email" th:field="*{email}" /></td>
-                    <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">EMail Error</td>
-                </tr>
-                <tr>
-                    <td>Name:</td>
-                    <td><input type="text" th:field="*{name}" /></td>
-                    <td th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
-                </tr>
-                <tr>
-                    <td>Birth Date:</td>
-                    <td><input type="date" th:field="*{dob}" /></td>
-                    <td th:if="${#fields.hasErrors('dob')}" th:errors="*{dob}">Birth Date Error</td>
+        .main {
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 400px;
+            margin: 7em auto;
+            border-radius: 1.5em;
+            box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }
 
-                </tr>
-                <tr>
-                    <td><button type="submit">Add</button></td>
-                </tr>
-            </table>
+        .sign {
+            padding-top: 40px;
+            font-weight: bold;
+            font-size: 23px;
+        }
+
+        .un {
+            width: 76%;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            background: rgba(136, 126, 126, 0.04);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            box-sizing: border-box;
+            border: 2px solid rgba(0, 0, 0, 0.02);
+            margin-bottom: 50px;
+            margin-left: 46px;
+            text-align: center;
+            margin-bottom: 27px;
+        }
+
+        form.form1 {
+            padding-top: 40px;
+        }
+
+        .pass {
+            width: 76%;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            background: rgba(136, 126, 126, 0.04);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            box-sizing: border-box;
+            border: 2px solid rgba(0, 0, 0, 0.02);
+            margin-bottom: 50px;
+            margin-left: 46px;
+            text-align: center;
+            margin-bottom: 27px;
+        }
+
+
+        .bodytext:focus{
+            border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+        }
+
+        .submit {
+            cursor: pointer;
+            border-radius: 5em;
+            background: #ffffff;
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-left: 35%;
+            font-size: 13px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        }
+
+        .forgot {
+            padding-top: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 14px;
+        }
+
+    </style>
+</div>
+</head>
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+
+    <div class="main">
+        <p class="sign titlehead" align="center">Create Student Account</p>
+        <form class="form-inline" action="#" th:action="@{/sql/studentcreate}" th:object="${student}" method="POST">
+            <div>
+                <input class="un bodytext" type="text" th:field="*{name}" id="name" align="center" placeholder="First & Last Name">
+                <small th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</small>
+            </div>
+            <div>
+                <input class="un bodytext" type="text" th:field="*{username}" id="username" align="center" placeholder="Username">
+                <small th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username Error</small>
+            </div>
+            <div>
+                <input class="pass bodytext" type="password" align="center" placeholder="Password" th:field="*{password}" id="password">
+                <small th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
         </form>
+
     </div>
-</div></body>
+
+</div>
+</body>
 
 </html>
