@@ -1,16 +1,155 @@
-\<!-- This page is illustrative and contains ideas about HTML formatting -->
+\<!-- This page is illustrative and contains ideas about HTML formatting
+<!DOCTYPE HTML>
+Signals to the Layout Dialect which layout should be used to decorate this View
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Art Gallery</title>
+</div></head> -->
+
+<!-- This page is illustrative and contains ideas about HTML formatting -->
 <!DOCTYPE HTML>
 <!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Art Gallery</title>
+    <title class="titlehead">Night at the Museum</title>
 </div></head>
+<h1 class="titlehead">Gallery</h1>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/hand.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Hyaebin Kim '24</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/faces.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Kenna Okimoto '24</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/brittney.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Brittney Huang '24</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/turtle.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">Turtle from Ceramics</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/Mona Lisa.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Leonardo da Vinci</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/Parasol.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Claude Monet</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+<div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+    <table class="table">
+    </table>
+    <tr>
+        <div>
+            <div class="card" style="width:300px; margin:10px;">
+                <img src="/images/The Starry Night.png" class="card-img-top" style="height:200px;">
+                <div class="card-body">
+                    <a class="titlehead" style="text-align:left">By Vincent van Gogh</a>
+                </div>
+            </div>
+        </div>
+    </tr>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- <body> -->
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
+<!---<body><div layout:fragment="content" th:remove="tag">
     <div class="row" style="padding:100px;">
 
         <html xmlns:layout="http://www.w3.org/1999/xhtml"
@@ -23,13 +162,13 @@
 
         <div layout:fragment="body" th:remove="tag">
             <div class="container py-4 bg-primary">
-                <!-- heading -->
-                <header class="pb-3 mb-4 border-bottom">
+                 heading -->
+                <!-- <header class="pb-3 mb-4 border-bottom">
                     <a href="#" class="d-flex align-items-center text-light text-decoration-none">
                         <span class="fs-4">Database SQL Person Search</span>
                     </a>
                 </header>
-                <!-- search box -->
+                search box
                 <div class="container py-4 text-light bg-success">
                     <div class="row">
                         <div class="col">
@@ -37,7 +176,7 @@
                                 <div class="form-group">
                                     <label for="term">Enter search term?</label>
                                     <input type="text" class="form-control" id="term" placeholder="enter search term">
-                                    <label></label> <!-- used for spacer -->
+                                    <label></label> used for spacer
                                 </div>
                                 <button class="btn btn-primary bg-secondary" onclick="search_data();">Search</button>
                             </div>
@@ -45,7 +184,7 @@
                     </div>
                 </div>
             </div>
-            <!-- result of search -->
+            result of search
             <div class="container">
                 <div class="row" id="result">
                 </div>
@@ -130,7 +269,7 @@
         <!--        </table>-->
         <!--    </div>-->
 
-        <div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
+       <!-- <div class="row justify-content-md-center flex-container" style="padding:10px; width:1000px;" >
             <table class="table">
             </table>
             <tr>
@@ -164,7 +303,8 @@
         </div>
 
     </div>
-</body>
+
+</body> -->
 
 
 </html>
