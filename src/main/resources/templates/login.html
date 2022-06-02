@@ -107,13 +107,32 @@
 <body style = "background-color:#2b425b; margin:auto;">
 <div layout:fragment="content" th:remove="tag">
 
+
     <div class="main">
-        <p class="sign titlehead" align="center">Sign in</p>
-        <form class="form1">
-            <input class="un bodytext" type="text" align="center" placeholder="Username">
-            <input class="pass bodytext" type="password" align="center" placeholder="Password">
-            <a class="submit bodytext" align="center">Sign in</a>
-            <p class="forgot bodytext" align="center"><a href="/sql/studentcreate">Make a student account</p>
+
+        <form name="f" th:action="@{/login}" method="POST">
+            <table>
+                <tr th:if="${param.error}" class="alert alert-error">
+                    Invalid username and password.
+                </tr>
+                <tr th:if="${param.logout}" class="alert alert-success">
+                    You have been logged out.
+                </tr>
+                <!-- 'email' is mapped to 'username' for Spring Security -->
+                <tr><th><p class="sign titlehead" align="center">Sign in</p></th></tr>
+                <tr><td><input class="un bodytext" type="text" id='username' name="username" placeholder="Username" required></td></tr>
+                <tr><td><input class="pass bodytext" type="password" placeholder="Password" id="password" name="password" required></td></tr>
+                <tr><th><input type="submit" value="Submit"></th></tr>
+                <tr><td><a th:href="@{/sql/studentcreate}">Make an account</a></td></tr>
+
+            </table>
+        </form>
+
+<!--        <form class="form1">-->
+<!--            <input class="un bodytext" type="text" align="center" placeholder="Username">-->
+<!--            <input class="pass bodytext" type="password" align="center" placeholder="Password">-->
+<!--            <a class="submit bodytext" align="center">Sign in</a>-->
+<!--            <p class="forgot bodytext" align="center"><a href="/sql/studentcreate">Make a student account</p>-->
 
 
     </div>

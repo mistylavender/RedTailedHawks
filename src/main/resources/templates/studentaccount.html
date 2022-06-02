@@ -111,10 +111,6 @@
         <p class="sign titlehead" align="center">Create Student Account</p>
     <form class="form-inline" action="#" th:action="@{/sql/studentcreate}" th:object="${student}" method="POST">
         <div>
-        <input class="un bodytext" type="text"  th:field="*{fullname}" id="fullname" type="text" align="center" placeholder="First & Last Name">
-            <small th:if="${#fields.hasErrors('fullname')}" th:errors="*{fullname}">Name Error</small>
-        </div>
-        <div>
             <input class="un bodytext" type="text" th:field="*{username}" id="username" align="center" placeholder="Username">
             <small th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Password Error</small>
         </div>
