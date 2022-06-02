@@ -34,9 +34,12 @@ Project owner and sponsor: Mr. Coleman
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## N@TM Self-Assessment
-Kira: 4.75/5 (helped to debug code a lot + presented at n@tm + attended n@tm for the whole time) 
+Kira: 4.75/5 (helped to debug code a lot + presented at n@tm + attended n@tm for the whole time)
+
 Ridhima: 4.25/5 (presented + code was somewhat successful + attended n@tm for the whole time) 
+
 Rini: 4.25/5 (presented + code was successful + attended n@tm for the whole time)  
+
 Natasha: 4.25/5 (presented + deployment was somewhat successful + helped to debug code a lot + attended n@tm for the whole time)
 
 Team Assessment: 3.75/5 (Not all features fully working according to plan + some weeks unproductive due to teammates having COVID + stayed fully engaged/organized w/ tickets & scrum board + good on communication + was there for all of n@tm)
