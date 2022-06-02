@@ -33,6 +33,17 @@ Project owner and sponsor: Mr. Coleman
 | Ridhima | [@ridhimainkurti](https://github.com/ridhimainukurti) | Technical Officer | Works with teacher, classroom TOs, and BOF TO's to form TPT lessons and Tech Talk Topics + facilitates learning of Technical Concepts within Scrum Team. | [Link](https://github.com/mistylavender/RedTailedHawks/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Link](https://ridhimainukurti.github.io/triridhimainukurti/) | [Link](https://github.com/mistylavender/RedTailedHawks/commits?author=ridhimainukurti) | 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
+## N@TM Self-Assessment
+Kira: 4.75/5 (helped to debug code a lot + presented at n@tm + attended n@tm for the whole time) 
+Ridhima: 4.25/5 (presented + code was somewhat successful + attended n@tm for the whole time) 
+Rini: 4.25/5 (presented + code was successful + attended n@tm for the whole time)  
+Natasha: 4.25/5 (presented + deployment was somewhat successful + helped to debug code a lot + attended n@tm for the whole time)
+
+Team Assessment: 3.75/5 (Not all features fully working according to plan + some weeks unproductive due to teammates having COVID + stayed fully engaged/organized w/ tickets & scrum board + good on communication + was there for all of n@tm)
+
+<img width="465" alt="Screen Shot 2022-06-02 at 1 13 40 AM" src="https://user-images.githubusercontent.com/89210546/171585758-a25387ec-7edd-452a-86b7-2cdc1d4a63cb.png">
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Week 5
 Code commits:
