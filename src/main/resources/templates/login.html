@@ -38,7 +38,6 @@
             box-sizing: border-box;
             border: 2px solid rgba(0, 0, 0, 0.02);
             margin-bottom: 50px;
-            margin-left: 46px;
             text-align: center;
             margin-bottom: 27px;
         }
@@ -60,7 +59,6 @@
             box-sizing: border-box;
             border: 2px solid rgba(0, 0, 0, 0.02);
             margin-bottom: 50px;
-            margin-left: 46px;
             text-align: center;
             margin-bottom: 27px;
         }
@@ -110,8 +108,8 @@
 
     <div class="main">
 
-        <form name="f" th:action="@{/login}" method="POST">
-            <table>
+        <form name="f" th:action="@{/login}" method="POST" style="width: 380px; padding:20px;">
+            <table style="text-align:center; width: 350px;">
                 <tr th:if="${param.error}" class="alert alert-error">
                     Invalid username and password.
                 </tr>
