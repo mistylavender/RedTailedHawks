@@ -14,4 +14,4 @@
 the implementation of the notes and the uploads in order to make it easier for the teachers and students so that confusion 
 would be reduced and the artwork would be directly uploaded onto the website. He also wanted to know if we would incorporate a 
 security measure or feature within our website so that the student accounts can be managed. We told him about our tables and how we
-planned to manage them with certain security precautions and agreed to that idea 
+planned to manage them with certain security precautions and agreed to that idea.
