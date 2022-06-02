@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Sponsor's Words
 
 [Sponsor Review Ticket](https://github.com/mistylavender/RedTailedHawks/issues/25)
