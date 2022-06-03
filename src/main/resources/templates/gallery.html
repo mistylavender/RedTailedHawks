@@ -1,41 +1,30 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!---This page is illustrative and contains ideas about HTML formatting -->
 <!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<!--Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
+
+<h2>Welcome to the Gallery</h2>
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <title class="titlehead">Night at the Museum</title>
 </div></head>
-<h1 class="titlehead">Gallery</h1>
-<h2 class="titlehead">Gallery</h2>
+<!---<h1 class="titlehead">Gallery</h1>
+<h2 class="titlehead">Gallery</h2> -->
 
-<!---kira
-<h2>Kira</h2>
-<div class="card p-2 img-box-container"> </div>
-<img class="img-box" id="kira" src="/images/kira.png"/> -->
+<!--<div style="margin: auto; margin-top: 50px; width:700px;  background-color: var(--secondary); border: 2px solid var(--primary); border-radius: 1.5em;">
+    <div style="text-align: center; padding: 30px; color: var(--primary);">
+        <h1>Welcome to the Gallery</h1>
+        <div style="text-align: left;">
+            <p>Scroll down to view our Nighthawks' amazing work!</p>
+        </div>
+    </div>
+</div> -->
 
-<!---ridhima
-<h2>Ridhima</h2>
-<div class="card p-2 img-box-container"></div>
-<img class="img-box" id="ridhima" src="/images/ridhima.png"/> -->
-
-
-<!---natasha
-<h2>Natasha</h2>
-<div class="card p-2 img-box-container"></div>
-<img class="img-box" id="natasha" src="/images/natasha.png"/> -->
-
-<!---rini
-<h2>Rini</h2>
-<div class="card p-2 img-box-container"></div>
-<img class="img-box" id="rini" src="/images/rini.png"/> -->
-
-
-<h2>Our Purpose</h2>
+<!---<h2>Our Purpose</h2>
 <h3>Del Norte's talented art students produce outstanding artwork every trimester for our tri-annual Night at the Museum show. Our innovative website showcases our students' pieces in an efficient manner and helps them stand out.</h3>
 
-<h4>Project Sponsor: Mr Coleman</h4>
+<h4>Project Sponsor: Mr Coleman</h4> --->
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body style="text-align: center;"><div layout:fragment="content" th:remove="tag">

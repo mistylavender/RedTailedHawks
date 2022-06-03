@@ -11,7 +11,6 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body onload="$('.carousel').carousel()"><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div style="position:relative;">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="width: 100%; height: 60%; opacity: 50%;">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -30,18 +29,48 @@
         <h>Night at the Museum</h>
     </div>
 
-        <div style="margin: auto; margin-top: 50px; width:700px;  background-color: var(--secondary); border: 2px solid var(--primary); border-radius: 1.5em;">
-            <div style="text-align: center; padding: 30px; color: var(--primary);">
-                <h1>Welcome to DNHS N@TM!</h1>
-                <div style="text-align: left;">
-                <p>Students here at Del Norte express their art in many different forms. Browse the gallery to see their hard work!</p>
-                <p>If you're a DNHS student looking to submit your work, please create an account over at the "Student" tab.</p>
-                </div>
+    <div style="margin: auto; margin-top: 50px; width:700px;  background-color: var(--secondary); border: 2px solid var(--primary); border-radius: 1.5em;">
+        <div style="text-align: center; padding: 30px; color: var(--primary);">
+            <h1>Welcome to DNHS N@TM!</h1>
+            <div style="text-align: left;">
+                <h3>Students here at Del Norte express their art in many different forms. Browse the gallery to see their hard work!</h3>
+                <h3>If you're a DNHS student looking to submit your work, please create an account over at the "Student" tab.</h3>
             </div>
         </div>
-</div>
+    </div>
 
-<!--    <script>-->
+    <style>
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .button2 {background-color: #008CBA;} /* Blue */
+        .button3 {background-color: #ffffff;} /* White */
+
+
+    </style>
+
+    <header class="showcase">
+        <div class="container showcase-inner">
+            <button class="button button3"></button>
+            <button class="button button3"></button>
+            <button class="button button3"></button>
+            <button class="button button3"></button>
+            <a href="gallery" class="button button2" >Browse</a>
+            <button class="button button3"></button>
+            <a href="login" class="button" >Create Account</a>
+        </div>
+
+        <!--    <script>-->
 <!--        $('.carousel').carousel()-->
 <!--    </script>-->
 
